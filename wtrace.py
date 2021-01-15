@@ -2,7 +2,7 @@ from subprocess import PIPE, run
 from concurrent.futures import ThreadPoolExecutor
 import re
 
-glinux_host = "higcp.bej.corp.google.com"
+glinux_host = "your glinux host"
 destination_URL_01 = "http://domain-01/"
 destination_URL_02 = "http://domian-02/"
 endpoint_list_file = "endpoints_list.data"
